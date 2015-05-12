@@ -59,7 +59,7 @@
     
     //showing the result of the request
     NSString* htmlCode = [NSString stringWithUTF8String:[ _responseData bytes]];
-    
+    //this will show the HTML Code of the website in the output
     NSLog(htmlCode);
    
     
@@ -68,8 +68,8 @@
 
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
-    // The request has failed for some reason!
-    // Check the error var
+    // The request has failed
+   
     
     
 }
