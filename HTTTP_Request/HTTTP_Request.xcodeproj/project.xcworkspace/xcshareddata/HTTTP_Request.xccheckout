@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01551397-CE9E-484B-AE43-23C668493EDB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HTTTP_Request</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E7F8E09E394925C0991413D6DABA9AFFD836206</key>
+		<string>ssh://gerrit.fritz.box:29418/SolidApps/Snapshots-iOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HTTTP_Request/HTTTP_Request.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E7F8E09E394925C0991413D6DABA9AFFD836206</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://gerrit.fritz.box:29418/SolidApps/Snapshots-iOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E7F8E09E394925C0991413D6DABA9AFFD836206</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E7F8E09E394925C0991413D6DABA9AFFD836206</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Snapshots-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
