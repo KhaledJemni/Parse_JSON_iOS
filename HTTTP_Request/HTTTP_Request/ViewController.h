@@ -10,7 +10,7 @@
 
 @interface ViewController : UIViewController <NSURLConnectionDataDelegate>
 
-
+//this is an instance variable to hold the response data
 {
     NSMutableData *_responseData;
 }

@@ -33,31 +33,35 @@
 #pragma mark NSURLConnection Delegate Methods
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+   
+    // We have a response here so we can use the variable we already declared in the .h file
     
+    //this method is called each time there is a redirect
+   
     NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
     NSLog(@"HTTPHeaders: %@", httpResponse.allHeaderFields);
     _responseData = [[NSMutableData alloc] init];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
-    
+    //using the new data
     [_responseData appendData:data];
 }
 
 
 - (NSCachedURLResponse *)connection:(NSURLConnection *)connection
                   willCacheResponse:(NSCachedURLResponse*)cachedResponse {
-    
+    //not required to store a response
     return nil;
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    //NSLog(@"Received");
-    //    NSLog(_responseData);
+    
+    //showing the result of the request
     NSString* htmlCode = [NSString stringWithUTF8String:[ _responseData bytes]];
     
     NSLog(htmlCode);
-    NSLog(@"TEST");
+   
     
     
 }
