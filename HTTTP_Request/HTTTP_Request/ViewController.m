@@ -57,6 +57,7 @@
     NSString* htmlCode = [NSString stringWithUTF8String:[ _responseData bytes]];
     
     NSLog(htmlCode);
+    NSLog(@"TEST");
     
     
 }
